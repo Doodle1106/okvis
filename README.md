@@ -1,3 +1,29 @@
+okvis with ROS wrapper
+
+1. To Build
+    
+    mkdir build
+    cd build
+    cmake ..
+    make
+    
+2. To use
+
+    (In the root folder)
+    /bin/okvis_app_gaas ./config/config_mynteye_s.yaml
+    
+3. NOTE
+    
+    Currently you have to manually change topics for left and right cameras as well as IMU as detailed in okvis_app_gaas.cpp
+    
+
+    
+
+
+
+
+
+
 README                        {#mainpage}
 ======
 
